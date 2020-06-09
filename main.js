@@ -1,7 +1,7 @@
 window.onload = function () {
     const mas = document.querySelector('.mas')
     const menos = document.querySelector('.menos')
-    const living = this.document.querySelector('.living')
+    const living = document.querySelector('.living')
 
     let listaDeClases = ['silla1','silla2','silla3','silla4','silla5','silla6','silla7','silla8'] //LISTA CON LAS CLASES
 
