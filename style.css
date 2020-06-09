@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.wrap {
+    height: 75%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.botones {
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+button {
+    border-radius: 100%;
+    font-size: 3em;
+    height: 1em;
+    width: 1em;
+    border: none;
+    line-height: 1em;
+}
+.mas {
+    background: rgb(5, 196, 5);
+}
+.menos {
+    background: red;
+}
+.living {
+    height: 90%;
+    position: relative;
+}
+.mesa {
+    position: absolute;
+    top: 130px;
+    left: 190px;
+}
+#silla {
+    position: absolute;
+}
+.silla1 {
+    top: 10px;
+    left: 230px;
+}
+.silla2 {
+    top: 10px;
+    left: 380px;
+}
+.silla3 {
+    top: 10px;
+    left: 530px;
+}
+.silla4 {
+    top: 215px;
+    left: 65px;
+    -webkit-transform: rotate(270deg);
+}
+.silla5 {
+    top: 215px;
+    left: 695px;
+    -webkit-transform: rotate(90deg);
+}
+.silla6 {
+    top: 430px;
+    left: 230px;
+    -webkit-transform: rotate(180deg);
+}
+.silla7 {
+    top: 430px;
+    left: 380px;
+    -webkit-transform: rotate(180deg);
+}
+.silla8 {
+    top: 430px;
+    left: 530px;
+    -webkit-transform: rotate(180deg);
+}
