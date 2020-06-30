@@ -1,4 +1,4 @@
-<h1>LIVING v2.0<h1>
+# LIVING v2.0
 
 https://juanchimdo.github.io/Living-v2.0/
 
@@ -18,6 +18,3 @@ Al agregar una silla, se selecciona aleatoriamente un elemento de la lista (una 
 Además, se le agrega un id=silla. Este id es útil a la hora de quitar sillas, ya que podemos hacer una lista de las sillas existentes y extraer su clase para volver a agregarla en la lista original de clases (ver función quitarSilla).
 
 Para quitar las sillas se selecciona aleatoriamente una silla existente (a traves de su id), se detecta su clase, se la vuelve a agregar a la lista de clases para usarse en un futuro y se elimina el elemento img del div.
-
-A tener en cuenta : mismo tema con las hojas de estilo de la v1.0. No estoy conforme pero no puedo seguir dandole más tiempo.
-El programa agrega y quita sillas aleatoriamente.
